@@ -1,0 +1,359 @@
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_X\" default=\"true\" project-jdk-name=\"openjdk-20 (2)\" project-jdk-type=\"JavaSDK\">\n    <output url=\"file://$PROJECT_DIR$/out\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision bb3f1da3d115bcbb649b51113ca15f63ca35560e)
++++ b/.idea/misc.xml	(date 1699779149559)
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" default="true" project-jdk-name="openjdk-20 (2)" project-jdk-type="JavaSDK">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" project-jdk-name="openjdk-20 (2)" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/out" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: CS.11.05-Lab-5.1.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<module type=\"JAVA_MODULE\" version=\"4\">\n  <component name=\"NewModuleRootManager\" inherit-compiler-output=\"true\">\n    <exclude-output />\n    <content url=\"file://$MODULE_DIR$\">\n      <sourceFolder url=\"file://$MODULE_DIR$/src\" isTestSource=\"false\" />\n    </content>\n    <orderEntry type=\"inheritedJdk\" />\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\n    <orderEntry type=\"module-library\">\n      <library name=\"JUnit5.8.1\">\n        <CLASSES>\n          <root url=\"jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter/5.8.1/junit-jupiter-5.8.1.jar!/\" />\n          <root url=\"jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar!/\" />\n          <root url=\"jar://$MAVEN_REPOSITORY$/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar!/\" />\n          <root url=\"jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar!/\" />\n          <root url=\"jar://$MAVEN_REPOSITORY$/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar!/\" />\n          <root url=\"jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-params/5.8.1/junit-jupiter-params-5.8.1.jar!/\" />\n          <root url=\"jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar!/\" />\n          <root url=\"jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar!/\" />\n        </CLASSES>\n        <JAVADOC />\n        <SOURCES />\n      </library>\n    </orderEntry>\n  </component>\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/CS.11.05-Lab-5.1.iml b/CS.11.05-Lab-5.1.iml
+--- a/CS.11.05-Lab-5.1.iml	(revision bb3f1da3d115bcbb649b51113ca15f63ca35560e)
++++ b/CS.11.05-Lab-5.1.iml	(date 1699779149549)
+@@ -23,5 +23,21 @@
+         <SOURCES />
+       </library>
+     </orderEntry>
++    <orderEntry type="module-library">
++      <library name="JUnit5.8.1">
++        <CLASSES>
++          <root url="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter/5.8.1/junit-jupiter-5.8.1.jar!/" />
++          <root url="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar!/" />
++          <root url="jar://$MAVEN_REPOSITORY$/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar!/" />
++          <root url="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar!/" />
++          <root url="jar://$MAVEN_REPOSITORY$/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar!/" />
++          <root url="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-params/5.8.1/junit-jupiter-params-5.8.1.jar!/" />
++          <root url="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar!/" />
++          <root url="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar!/" />
++        </CLASSES>
++        <JAVADOC />
++        <SOURCES />
++      </library>
++    </orderEntry>
+   </component>
+ </module>
+\ No newline at end of file
+Index: src/ArrayUtility.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class ArrayUtility {\n\n    public static void print(int[] array) {\n\n    }\n\n    public static int sum(int[] array) {\n        return 0;\n    }\n\n    public static double average(int[] array) {\n        return 0;\n    }\n\n    public static int minimum(int[] array) {\n        return 0;\n    }\n\n    public static int maximum(int[] array) {\n        return 0;\n    }\n\n    public static int evenCount(int[] array) {\n        return 0;\n    }\n\n    public static int[] reverseOne(int[] array) {\n        return null;\n    }\n\n    public static void reverseTwo(int[] array) {\n\n    }\n\n    public static boolean linearSearchInt(int[] array, int num) {\n        return false;\n    }\n\n    public static boolean linearSearchString(String[] array, String str) {\n        return false;\n    }\n\n    public static void multiplyByTwo(int[] array) {\n\n    }\n\n    public static void multiplyByN(int[] array, int n) {\n\n    }\n\n    public static String toString(int[] array) {\n        return null;\n    }\n\n    public static boolean twoSum(int[] array, int num) {\n        return false;\n    }\n\n    public static void shiftRight(int[] array) {\n\n    }\n\n    public static void shiftLeft(int[] array) {\n\n    }\n\n    public static void shiftRightNTimes(int[] array, int n) {\n\n    }\n\n    public static void shiftLeftNTimes(int[] array, int n) {\n\n    }\n\n\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/ArrayUtility.java b/src/ArrayUtility.java
+--- a/src/ArrayUtility.java	(revision bb3f1da3d115bcbb649b51113ca15f63ca35560e)
++++ b/src/ArrayUtility.java	(date 1699794680086)
+@@ -1,75 +1,158 @@
+ public class ArrayUtility {
+ 
+     public static void print(int[] array) {
+-
++        int[] myArray;
++        myArray=new int[6];
++        return;
+     }
+ 
+     public static int sum(int[] array) {
+-        return 0;
++        int sum=0;
++        for (int i=0;i<array.length;i++){
++            sum+=array[i];
++        }
++        return sum;
+     }
+ 
+     public static double average(int[] array) {
+-        return 0;
++        int sum=0;
++        for (int num:array){
++            sum+=num;
++        }
++        double average=(double) sum/array.length;
++        average=(int)(average*100.0)/100.0;
++        return average;
+     }
+ 
+     public static int minimum(int[] array) {
+-        return 0;
++        int min=array[0];
++        for (int i=0;i< array.length;i++){
++            if(array[i]<min){
++                min=array[i];
++            }
++        }
++        return min;
+     }
+ 
+     public static int maximum(int[] array) {
+-        return 0;
++        int max=array[0];
++        for (int i=0;i<array.length;i++){
++            if (array[i]>max){
++                max=array[i];
++            }
++        }
++        return max;
+     }
+ 
+     public static int evenCount(int[] array) {
+-        return 0;
++        int count=0;
++        for (int i:array){
++            if(i%2==0){
++                count++;
++            }
++        }
++        return count;
+     }
+ 
+     public static int[] reverseOne(int[] array) {
+-        return null;
++        int[] reverse;
++        reverse=new int[array.length];
++        for (int i=0;i<array.length;i++){
++            reverse[i]=array[array.length-1-i];
++        }
++        return reverse;
+     }
+ 
+     public static void reverseTwo(int[] array) {
+-
++        int start=0;
++        int end=array.length-1;
++        while(start<end){
++            int temp=array[start];
++            array[start]=array[end];
++            array[end]=temp;
++            start++;
++            end--;
++        }
+     }
+ 
+     public static boolean linearSearchInt(int[] array, int num) {
++        for(int i=0;i<array.length;i++){
++            if (array[i]==num){
++                return true;
++            }
++        }
+         return false;
+     }
+ 
+     public static boolean linearSearchString(String[] array, String str) {
++        for(String i:array){
++            if(i.equals(str)){
++                return true;
++            }
++        }
+         return false;
+     }
+ 
+     public static void multiplyByTwo(int[] array) {
+-
++        for(int i=0;i<array.length;i++){
++            array[i] *= 2;
++        }
+     }
+ 
+     public static void multiplyByN(int[] array, int n) {
+-
++        for (int i=0;i<array.length;i++){
++            array[i] *= n;
++        }
+     }
+ 
+     public static String toString(int[] array) {
+-        return null;
++        String result="";
++        for (int i=0;i<array.length;i++){
++            result += array[i];
++            if (i!=array.length-1){
++                result+=", ";
++            }
++        }
++        return result;
+     }
+ 
+     public static boolean twoSum(int[] array, int num) {
++        for (int i=0;i<array.length;i++){
++            for (int j=i+1;j<array.length;j++){
++                if(array[i]+array[j]==num){
++                    return true;
++                }
++            }
++        }
+         return false;
+     }
+ 
+     public static void shiftRight(int[] array) {
+-
++        int end=array[array.length-1];
++        for (int i=array.length-1;i>0;i--){
++            array[i]=array[i-1];
++        }
++        array[0]=end;
+     }
+ 
+     public static void shiftLeft(int[] array) {
+-
++        int start=array[0];
++        for(int i=0;i<array.length-1;i++){
++            array[i]=array[i+1];
++        }
++        array[array.length-1]=start;
+     }
+ 
+     public static void shiftRightNTimes(int[] array, int n) {
+-
++        for (int i=0;i<n;i++){
++            shiftRight(array);
++        }
+     }
+ 
+     public static void shiftLeftNTimes(int[] array, int n) {
+-
++        for (int i=0;i<n;i++){
++            shiftLeft(array);
++        }
+     }
+ 
+ 
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"38f3d8e0-9a28-48c8-821d-644c1f86fcf9\" name=\"Changes\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/CS.11.05-Lab-5.1.iml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/CS.11.05-Lab-5.1.iml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/ArrayUtility.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/ArrayUtility.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/ArrayUtilityTest.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/ArrayUtilityTest.java\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2Xv5U0oHUFy7pqBWSIuYiUC3bxB\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"Downloaded.Files.Path.Enabled\": \"false\",\n    \"Repository.Attach.Annotations\": \"false\",\n    \"Repository.Attach.JavaDocs\": \"false\",\n    \"Repository.Attach.Sources\": \"false\",\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\"\n  }\n}]]></component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"38f3d8e0-9a28-48c8-821d-644c1f86fcf9\" name=\"Changes\" comment=\"\" />\n      <created>1699496727136</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1699496727136</updated>\n    </task>\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision bb3f1da3d115bcbb649b51113ca15f63ca35560e)
++++ b/.idea/workspace.xml	(date 1699794700928)
+@@ -1,10 +1,14 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="AutoImportSettings">
++    <option name="autoReloadType" value="SELECTIVE" />
++  </component>
+   <component name="ChangeListManager">
+     <list default="true" id="38f3d8e0-9a28-48c8-821d-644c1f86fcf9" name="Changes" comment="">
++      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/CS.11.05-Lab-5.1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CS.11.05-Lab-5.1.iml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/ArrayUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayUtility.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/ArrayUtilityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayUtilityTest.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -24,22 +28,86 @@
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
+   </component>
++  <component name="ProjectColorInfo">{
++  &quot;associatedIndex&quot;: 6
++}</component>
+   <component name="ProjectId" id="2Xv5U0oHUFy7pqBWSIuYiUC3bxB" />
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "Downloaded.Files.Path.Enabled": "false",
+-    "Repository.Attach.Annotations": "false",
+-    "Repository.Attach.JavaDocs": "false",
+-    "Repository.Attach.Sources": "false",
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true"
+-  }
+-}]]></component>
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
++    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
++    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
++    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;master&quot;
++  }
++}</component>
++  <component name="RunManager" selected="JUnit.ArrayUtilityTest">
++    <configuration name="ArrayUtilityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++      <module name="CS.11.05-Lab-5.1" />
++      <option name="PACKAGE_NAME" value="" />
++      <option name="MAIN_CLASS_NAME" value="ArrayUtilityTest" />
++      <option name="TEST_OBJECT" value="class" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="ArrayUtilityTest.average" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++      <module name="CS.11.05-Lab-5.1" />
++      <option name="PACKAGE_NAME" value="" />
++      <option name="MAIN_CLASS_NAME" value="ArrayUtilityTest" />
++      <option name="METHOD_NAME" value="average" />
++      <option name="TEST_OBJECT" value="method" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="ArrayUtilityTest.shiftLeft" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++      <module name="CS.11.05-Lab-5.1" />
++      <option name="PACKAGE_NAME" value="" />
++      <option name="MAIN_CLASS_NAME" value="ArrayUtilityTest" />
++      <option name="METHOD_NAME" value="shiftLeft" />
++      <option name="TEST_OBJECT" value="method" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="ArrayUtilityTest.shiftLeftNTimes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++      <module name="CS.11.05-Lab-5.1" />
++      <option name="PACKAGE_NAME" value="" />
++      <option name="MAIN_CLASS_NAME" value="ArrayUtilityTest" />
++      <option name="METHOD_NAME" value="shiftLeftNTimes" />
++      <option name="TEST_OBJECT" value="method" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="ArrayUtilityTest.shiftRightNTimes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++      <module name="CS.11.05-Lab-5.1" />
++      <option name="PACKAGE_NAME" value="" />
++      <option name="MAIN_CLASS_NAME" value="ArrayUtilityTest" />
++      <option name="METHOD_NAME" value="shiftRightNTimes" />
++      <option name="TEST_OBJECT" value="method" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <recent_temporary>
++      <list>
++        <item itemvalue="JUnit.ArrayUtilityTest" />
++        <item itemvalue="JUnit.ArrayUtilityTest.average" />
++        <item itemvalue="JUnit.ArrayUtilityTest.shiftLeftNTimes" />
++        <item itemvalue="JUnit.ArrayUtilityTest.shiftRightNTimes" />
++        <item itemvalue="JUnit.ArrayUtilityTest.shiftLeft" />
++      </list>
++    </recent_temporary>
++  </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
